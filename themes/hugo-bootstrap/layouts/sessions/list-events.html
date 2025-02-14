@@ -7,7 +7,7 @@
 
     <ul class="event-list">
     {{ range .Data.Pages }}
-      <li><a class="session-title" href="{{.Permalink}}">{{ .Params.title }}</a></li>
+      <li><a class="session-title" href="{{.Permalink | relURL}}">{{ .Params.title }}</a></li>
     {{ end }}
     </ul>
 </div>
