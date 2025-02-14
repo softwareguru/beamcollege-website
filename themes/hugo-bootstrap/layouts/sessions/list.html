@@ -14,7 +14,7 @@
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"
           webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
         {{ end }}          
-        <div class="mb-4"><a class="session-title" href="{{.Permalink}}">{{ .Params.title }}</a>
+        <div class="mb-4"><a class="session-title" href="{{.Permalink | relURL}}">{{ .Params.title }}</a>
           <br>by {{ with .Params.speakers }}{{ if lt (. | len) 3 }}{{ delimit . ", " " & " }}{{ else }}Multiple speakers{{end}}{{ end }}
         </div>
       </div>
