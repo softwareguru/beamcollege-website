@@ -7,10 +7,4 @@
 
 {{ $css := resources.Get "sass/main.scss" | toCSS $sassOptions -}}
 
-{{ if eq (hugo.Environment) "development" -}}
-  <link rel="stylesheet" href="{{ $css.Permalink | relURL }}" media="screen">
-{{ else -}}
-  {{ $secureCSS := $css | resources.Fingerprint "sha512" -}}
-  <link rel="stylesheet" href="{{ $secureCSS.Permalink }}" media="screen" integrity="{{ $secureCSS.Data.Integrity }}" crossorigin="anonymous">
-{{ end -}}
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="{{ $css.Permalink | relURL }}" media="screen">
