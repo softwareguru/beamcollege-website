@@ -8,6 +8,7 @@ enableRobotsTXT = true
 enableEmoji = true
 #sectionPagesMenu = "main"
 googleAnalytics = "G-8LMCE3734V"
+removePathAccents = true
 
 [frontmatter]
   date = ["date", "publishDate", "lastmod"]
@@ -16,6 +17,7 @@ googleAnalytics = "G-8LMCE3734V"
 [taxonomies]
   tag = "tags"
   category = "categories"
+  speaker = "speakers"
 
 [sitemap]
   changefreq = "weekly"

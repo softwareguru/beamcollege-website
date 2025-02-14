@@ -478,3 +478,16 @@ footer {
 h3 {
   margin-top: 1em;
 }
+
+.video-container {
+  width: 400px;
+  height: 225px;
+  @media (min-width: 992px) {
+    width: 704px;
+    height: 396px;        
+  }
+  @media (min-width: 1400px) {
+    width: 1120px;
+    height: 630px;        
+  }
+}
