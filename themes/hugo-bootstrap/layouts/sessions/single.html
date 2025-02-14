@@ -28,11 +28,11 @@
 
     <div class="row mt-4">
       <div class="col-2">
-          <span class="title">Speaker(s):</span>
+          <span class="title mb-2">Speaker(s):</span>
             <div class="speaker-info text-center">
               {{ range (.GetTerms "speakers") }}
                 <div class="speaker-thumbnail mb-3">
-                  <a href="{{ .Permalink }}">
+                  <a href="{{ .RelPermalink }}">
                     {{ $img := .Resources.Get "headshot.jpg" }}
                     {{ with $img }}
                       {{ $imgp := $img.Fill "300x300 webp" }}
