@@ -1,0 +1,93 @@
+baseURL = 'https://beamcollege.dev'
+title = 'Beam College'
+theme = 'hugo-bootstrap'
+
+disableHugoGeneratorInject = true
+enableRobotsTXT = true
+#enableGitInfo = true
+enableEmoji = true
+#sectionPagesMenu = "main"
+googleAnalytics = "G-8LMCE3734V"
+
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.7
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+
+  [markup.goldmark]
+
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      wrapStandAloneImageWithinParagraph = false
+
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+
+    [markup.goldmark.renderer]
+      hardWraps = true
+      unsafe = true
+      xHTML = false
+
+
+# Site Params
+
+# Open Graph, Twitter Cards and schema.org Thing and Article (in posts)
+# https://gohugo.io/templates/internal/#open-graph
+# https://gohugo.io/templates/internal/#twitter-cards
+# https://schema.org/Thing
+# https://schema.org/Article
+[params]
+  description = "Beam College is an online training + hackathon focused on implementing data pipelines with Apache Beam."
+  images = ['/images/beamcollege2025.jpg']
+  mainMenuLogo = "/images/logo-simple.svg"
+  copyright="Software Guru"
+
+  themeColor = "#fff"
+
+  [params.options]
+    bootStrapJs = true
+    breadCrumb = false
+    listCategoryFilter = true
+    listTagFilter = true
+
+
+[[menus.main]]
+name = "About"
+url = "/about"
+weight = 10
+
+[[menus.main]]
+name = "Schedule"
+url = "/schedule"
+weight = 20
+
+[[menus.main]]
+name = "FAQ"
+url = "/faq"
+weight = 30
+
+[[menus.main]]
+name = "Archive"
+url = "/sessions"
+weight = 40

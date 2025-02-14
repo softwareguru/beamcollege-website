@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<div class="container mb-4">
+    <div class="text-center lead">
+        {{ .Content }}
+    </div>
+
+    <ul class="event-list">
+    {{ range .Data.Pages }}
+      <li><a class="session-title" href="{{.Permalink}}">{{ .Params.title }}</a></li>
+    {{ end }}
+    </ul>
+</div>
+
+
+{{ end }}

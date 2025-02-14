@@ -1,0 +1,26 @@
+############################## Event ##############################
+items:
+    - question: Who can participate?
+      answer: "Anybody can join the training, regardless of age or location. Minors who want to join the hackathon need to have a signed authorization from a parent or tutor. Google employees can join the hackathon but are not elegible for prizes."
+
+    - question: "What is the schedule?"
+      answer: "Live training sessions will be on May 15, 2025. The hackathon will be May 16 & 17, 2025. For more details, check out the <a href='/schedule'>schedule page</a>."
+
+    - question: "What are the hackathon prizes?"
+      answer: "<ul><li>1st place: $1,500 USD</li><li>2nd place: $1,000 USD</li><li>3rd place: $500 USD</li></ul><p>Prize will be split evenly among team members.</p>"
+
+    - question: "How many people can be in a team?"
+      answer: "Teams may have 1-6 participants."
+
+    - question: "How can I connect with other participants who may be interested in forming a team with me?"
+      answer: "We will enable a Discord server where you can contact other participants and form a team."
+
+
+
+
+
+
+
+
+
+
