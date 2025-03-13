@@ -3,7 +3,7 @@ title: "Schedule"
 draft: false
 ---
 
-Beam College 2025 will be on May 15-18, 2025.
+### Beam College 2025 will be on May 15-18, 2025.
 
  * Thursday, May 15th: Getting started with Apache Beam.
  * Friday, May 16th: What is new and coming in Apache Beam?
