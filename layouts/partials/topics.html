@@ -4,14 +4,12 @@
         <div class="card-strip">
           {{ range where .Site.RegularPages "Type" "topics"}}
           <div class="card mx-1 mb-3">
-            <a href="{{.RelPermalink}}">
             {{ $img := resources.Get (index .Params.images 0) }}
             {{ with $img }}
               <div class="card-img">
                 <img src="{{$img.RelPermalink }}" class="card-img-top" alt="{{.Title}}">
               </div>
             {{ end }}
-            </a>
             <div class="card-body">
               <h5 class="card-title">{{.Title}}</h5>
               <p class="card-text">{{ .Content | .RenderString }}</p>
