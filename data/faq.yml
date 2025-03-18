@@ -7,7 +7,7 @@ items:
       answer: "<ul><li>Educational sessions (prerecorded and live) will be on May 15 & 16, 2025.</li><li>The hackathon will be May 17 & 18, 2025. For more details, check out the <a href='/schedule'>schedule page</a>.</li></ul>"
 
     - question: "What are the topics of the training sessions?"
-      answer: "<ul><li>The sessions on May 15 will be introductory level to help those who are getting started with Apache Beam.</li><li>Sessions on May 16 will focus on new and/or advanced features of Apache Beam.</li></ul>"
+      answer: "<ul><li>The sessions on May 15 will be introductory level to help those who are getting started with Apache Beam.</li><li>Sessions on May 16 will focus on new and/or advanced features of Apache Beam.</li></ul>We will published a detailed list of sessions and speakers by April 15th, 2025."
 
     - question: "What are the hackathon prizes?"
       answer: "<ul><li>1st place: $1,500 USD</li><li>2nd place: $1,000 USD</li><li>3rd place: $500 USD</li></ul><p>Prize will be split evenly among team members.</p>"
