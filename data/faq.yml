@@ -1,7 +1,7 @@
 ############################## Event ##############################
 items:
     - question: Who can participate?
-      answer: "<ul><li>Anybody can join the training component of Beam College, regardless of age or location.</li><li>In order to participate in the hackathon you need to fulfill all of these requirements: a) be 18 years or older, b) not be a Google employee, c) not a resident of Cuba, Iran, North Korea, Syria, Crimea, Donetsk People’s Republic, Luhansk People’s Republic, Belarus, or Russia.</li></ul>"
+      answer: "In order to participate in Beam College 2025 you need to fulfill all of these requirements: <ul><li>be 18 years or older</li><li>not be a Google employee</li><li>not a resident of Cuba, Iran, North Korea, Syria, Crimea, Donetsk People’s Republic, Luhansk People’s Republic, Belarus, or Russia."
 
     - question: "What is the schedule?"
       answer: "<ul><li>Educational sessions (prerecorded and live) will be on May 15 & 16, 2025.</li><li>The hackathon will be May 17 & 18, 2025. For more details, check out the <a href='/schedule'>schedule page</a>.</li></ul>"
