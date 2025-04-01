@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<section class="speaker-2 section">
+  <div class="container">
+    <div class="mb-4">
+      {{ .Content }}
+    </div>
+    <div class="speaker-strip">
+      {{ range where .Data.Pages.ByTitle ".Params.mentor" true }}
+      <div class="speaker-item">
+        <div class="speaker-block">
+          <div class="headshot-box">
+            <a href="{{.Permalink}}">
+                {{ $img := .Resources.Get "headshot.jpg" }}
+                {{ with $img }}
+                  {{ $imgp := $img.Fill "400x400 webp" }}
+                  <img src="{{$imgp.RelPermalink }}" alt="Photo of {{.Title}}" class="img-fluid rounded-circle">
+                {{ end }}  
+            </a>
+          </div>
+          <div class="speaker-info text-center">
+            <h4 class="my-0"><a href="{{.Permalink | relURL }}">{{ .Title }}</a></h4>
+            <p class="mb-4">{{ .Params.Designation}}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

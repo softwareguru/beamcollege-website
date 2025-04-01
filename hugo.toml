@@ -17,7 +17,7 @@ removePathAccents = true
 [taxonomies]
   tag = "tags"
   category = "categories"
-  speaker = "speakers"
+  instructor = "instructors"
 
 [sitemap]
   changefreq = "weekly"
