@@ -1,6 +1,6 @@
 ---
 title: 'Project Shield: How we use Beam to defend democracy'
-date: 2025-02-14T09:48:13-06:00
+date: 2024-02-14T09:48:13-06:00
 speakers:
  - Marc Howard
 time_start: 2024-04-10T15:30:00.000Z

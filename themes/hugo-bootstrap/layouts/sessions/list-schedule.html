@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+<div class="container mb-4">
+  <h1 class="color-gradient">{{ .Title }}</h1>
+  {{ .Content }}
+
+
+  <table id="sessions-table" data-toggle="table" data-search-align="left" data-sortable="true">
+    <thead>
+      <tr>
+        <th data-field="title" data-sortable="true" class="text-center">Title</th>
+        <th data-field="track" data-sortable="true" class="text-center">Track</th>
+        <th data-field="time" data-sortable="true" class="text-center">Time</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      {{ range sort .Data.Pages ".Params.time_start" }}
+      <tr>
+        <td data-bs-target="#abs-{{.File.TranslationBaseName}}" class="session-toggler py-1">
+            <a class="session-title" href="{{.Permalink}}">{{ .Params.title }}</a>
+            <div class="card-abstract" id="abs-{{.File.TranslationBaseName}}" >
+              {{ .Summary }}
+            </div>
+        </td>
+        <td class="text-center px-5">{{.Params.track}}</td>
+        <td id="timeutc-{{.File.TranslationBaseName}}" class="text-center">{{ with .Params.time_start | time }}{{ .Format "Jan-02 15:04"}}{{ end }}</td>
+      </tr>
+      {{ end }}  
+    </tbody>
+  </table>
+
+
+{{ end }}

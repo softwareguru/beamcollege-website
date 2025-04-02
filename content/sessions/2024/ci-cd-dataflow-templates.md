@@ -1,6 +1,6 @@
 ---
 title: 'CI/CD with Dataflow Templates'
-date: 2025-02-14T09:39:28-06:00
+date: 2024-02-14T09:39:28-06:00
 speakers:
  - Surjit Singh
 time_start: 2024-04-10T15:30:00.000Z

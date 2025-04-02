@@ -1,10 +1,10 @@
 ---
-title: "Xq Hu"
+title: "XQ Hu"
 designation: 
 images:
  - headshot.jpg
 twitter:
 linkedin: 
 speaker: 
-mentor: 
+mentor: true
 ---
