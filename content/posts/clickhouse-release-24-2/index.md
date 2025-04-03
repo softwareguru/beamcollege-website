@@ -7,7 +7,7 @@ images: ["clickhouse_242.png"]
 categories: ["ClickHouse"]
 tags: ["release"]
 keywords: ["bootstrap 5 3","bootstrap 5","bootstrap"]
-
+draft: true
 ---
 
 ![ClickHouse 24.2](clickhouse_242.png)

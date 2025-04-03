@@ -7,4 +7,5 @@ twitter:
 linkedin: 
 speaker: 
 mentor: true
+draft: true
 ---

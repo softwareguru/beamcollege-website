@@ -6,7 +6,7 @@ draft: false
 images: ["clickhouse-meetup-zurich.webp"]
 categories: ["ClickHouse"]
 tags: ["meetup"]
-
+draft: true
 ---
 
 ![ClickHouse Meetup Zurich](clickhouse-meetup-zurich.webp)
