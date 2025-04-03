@@ -85,6 +85,11 @@ url = "/schedule"
 weight = 20
 
 [[menus.main]]
+name = "Sessions"
+url = "/sessions/2025"
+weight = 25
+
+[[menus.main]]
 name = "FAQ"
 url = "/faq"
 weight = 30
