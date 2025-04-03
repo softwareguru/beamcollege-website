@@ -90,6 +90,11 @@ url = "/sessions/2025"
 weight = 25
 
 [[menus.main]]
+name = "Instructors"
+url = "/instructors"
+weight = 30
+
+[[menus.main]]
 name = "FAQ"
 url = "/faq"
 weight = 30
