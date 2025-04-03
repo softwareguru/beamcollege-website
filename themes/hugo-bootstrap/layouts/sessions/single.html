@@ -28,19 +28,19 @@
 
     <div class="content mt-4">{{ .Content }}</div>
     
-    <div class="row d-flex">
-      <div>
-          Intructors:
-      </div>
+      <p class="mt-5">
+          Intructor(s):
+      </p>
+      <div class="row d-inline-flex">
       {{ range (.GetTerms "instructors") }}
-      <div class="speaker-thumbnail mb-2">
+      <div class="speaker-thumbnail mb-2 text-center">
         <a href="{{ .RelPermalink }}">
             {{ $img := .Resources.Get "headshot.jpg" }}
             {{ with $img }}
-              {{ $imgp := $img.Fill "200x200 webp" }}
+              {{ $imgp := $img.Fill "180x180 webp" }}
                 <img src="{{$imgp.RelPermalink }}" alt="Photo of {{.Title}}" class="rounded-circle">
             {{ end }}      
-            <h5 class="name">{{ .Title }}</h5>
+            <h5 class="name my-2">{{ .Title }}</h5>
         </a> 
       </div>
       {{ end }}

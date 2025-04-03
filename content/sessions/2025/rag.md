@@ -6,7 +6,7 @@ instructors:
 time_start: 2025-05-16T15:00:00.000Z
 time_end:   2025-05-16T15:30:00.000Z
 track: New features
-summary: "This presentation introduces vector-based semantic search and Retrieval Augmented Generation (RAG), demonstrating how to build scalable pipelines for using Apache Beam. We'll start by explaining fundamental concepts like chunking, embeddings and vector similarity. Then we'll explore semantic search applications before extending to full RAG systems. "
+summary: "This presentation introduces vector-based semantic search and Retrieval Augmented Generation (RAG), demonstrating how to build scalable pipelines for using Apache Beam. We'll start by explaining fundamental concepts like chunking, embeddings and vector similarity. Then we'll explore semantic search applications before extending to full RAG systems."
 ---
 
 This presentation introduces vector-based semantic search and Retrieval Augmented Generation (RAG), demonstrating how to build scalable pipelines for using Apache Beam. We'll start by explaining fundamental concepts like chunking, embeddings and vector similarity. Then we'll explore semantic search applications before extending to full RAG systems. 
