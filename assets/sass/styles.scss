@@ -70,6 +70,14 @@ body {
     font-weight: 600;
 }
 
+
+// Banner hero
+
+.banner-info{
+  background-color: #ff6d00; 
+  border-radius: 20px;
+}
+
 .btn-cta{
   color: #000000;  
   background-color: yellow !important; 
@@ -86,6 +94,12 @@ body {
   @media (max-width: 768px){
     width: 135px;
   }
+}
+
+.beamsummit-img{
+  background-color: white; 
+  border-radius: 20px;
+  width: 150px;
 }
 
 .featured-projects {
