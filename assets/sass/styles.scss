@@ -70,6 +70,24 @@ body {
     font-weight: 600;
 }
 
+.btn-cta{
+  color: #000000;  
+  background-color: yellow !important; 
+  border-radius: 25px; 
+  margin: 0px 190px 0px 190px;
+
+  @media (max-width: 990px){
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+.liberbee-img{
+  width: 100px;
+  @media (max-width: 768px){
+    width: 135px;
+  }
+}
+
 .featured-projects {
   
   .project-logo {
