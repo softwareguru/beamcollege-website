@@ -90,18 +90,24 @@ body {
   }
 }
 
-.liberbee-img{
-  width: 100px;
-  @media (max-width: 768px){
-    width: 135px;
+// Banner (footer)
+
+.banner-img-desktop {
+  width: 100%;
+  @media (max-width: 730px) {
+    display: none;
+    width: 100%;
+}
+}
+
+.banner-img-mobile {
+  width: 100%;
+  @media (min-width: 730px) {
+    display: none;
+      
   }
 }
 
-.beamsummit-img{
-  background-color: white; 
-  border-radius: 20px;
-  width: 150px;
-}
 
 .featured-projects {
   
