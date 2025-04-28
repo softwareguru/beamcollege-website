@@ -1,22 +1,28 @@
 ############################## Event ##############################
 items:
-    - question: Who can participate?
-      answer: "In order to participate in Beam College 2025 you need to fulfill all of these requirements: <ul><li>be 18 years or older</li><li>not be a Google employee</li><li>not a resident of Cuba, Iran, North Korea, Syria, Crimea, Donetsk People’s Republic, Luhansk People’s Republic, Belarus, or Russia."
+    - question: Who is the event for? 
+      answer: "For developers, data scientists and engineers, at all levels exploring or advancing their skills with Apache Beam."
+
+    - question: "Who can participate?"
+      answer: "In order to participate in Beam College 2025 you need to fulfill all of these requirements:<br><ul><li>Be 18 years or older</li><li>Not be a Google employee</li><li>Not a resident of Cuba, Iran, North Korea, Syria, Crimea, Donetsk People’s Republic, Luhansk People’s Republic, Belarus, or Russia.</li></ul>"
+
+    - question: "Will the event be in-person or online?"
+      answer: "Beam College 2025 is online event from May 15 to 18, 2025."
+
+    - question: "Is the event free?"
+      answer: "Yes, participation in Beam College 2025 is free."
+
+    - question: "How can I register for the event?"
+      answer: "<p>Registration is now open. Sign up for the event <a href='https://beamcollege.dev/register/'>here</a></p>."
 
     - question: "What is the schedule?"
-      answer: "<ul><li>Educational sessions (prerecorded and live) will be on May 15 & 16, 2025.</li><li>The hackathon will be May 17 & 18, 2025. For more details, check out the <a href='/schedule'>schedule page</a>.</li></ul>"
+      answer: "Educational sessions (prerecorded and live) will be on May 15 & 16, 2025. The hackathon will be May 17 & 18, 2025. For more details, check out the schedule <a href='https://beamcollege.dev/schedule/'>page</a>."
 
     - question: "What are the topics of the training sessions?"
-      answer: "<ul><li>The sessions on May 15 will be introductory level to help those who are getting started with Apache Beam.</li><li>Sessions on May 16 will focus on new and/or advanced features of Apache Beam.</li></ul>We will published a detailed list of sessions and speakers by April 15th, 2025."
+      answer: "The sessions on May 15 will be introductory level to help those who are getting started with Apache Beam. Sessions on May 16 will focus on new and/or advanced features of Apache Beam. We will published a detailed list of sessions and speakers by April 15th, 2025."
 
-    - question: "What are the hackathon prizes?"
-      answer: "<ul><li>1st place: $1,500 USD</li><li>2nd place: $1,000 USD</li><li>3rd place: $500 USD</li></ul><p>Prize will be split evenly among team members.</p>"
-
-    - question: "How many people can be in a team?"
-      answer: "Teams may have 2-6 participants."
-
-    - question: "How can I connect with other participants who may be interested in forming a team with me?"
-      answer: "We will enable a Discord server where you can contact other participants and form a team."
+    - question: "Is there a Code of Conduct?"
+      answer: "Yes. Please review the Code of Conduct <a href='https://beamcollege.dev/coc/'>here</a>."
 
 
 
