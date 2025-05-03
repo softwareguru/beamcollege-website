@@ -1,18 +1,21 @@
 <section id="retos">
     <div class="container">
-    <h2 class="text-center">What you will <span class="color-gradient">learn</span></h2>
+    <h2 class="text-center"><span class="color-gradient">Challenges: </span>What you will <span class="color-gradient">learn and build</span></h2>
         <div class="card-strip">
-          {{ range where .Site.RegularPages "Type" "topics"}}
+          {{ range where .Site.RegularPages "Type" "challenges"}}
           <div class="card mx-1 mb-3">
             {{ $img := resources.Get (index .Params.images 0) }}
+            
+            <a href="{{.RelPermalink }}">
             {{ with $img }}
               <div class="card-img">
                 <img src="{{$img.RelPermalink }}" class="card-img-top" alt="{{.Title}}">
               </div>
             {{ end }}
+            </a>
             <div class="card-body">
               <h5 class="card-title">{{.Title}}</h5>
-              <p class="card-text">{{ .Content | .RenderString }}</p>
+              <p class="card-text">{{ .Summary }}</p>
             </div>
           </div>        
           {{ end }}

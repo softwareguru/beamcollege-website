@@ -79,42 +79,12 @@ name = "About"
 url = "/about"
 weight = 10
 
-#[[menus.main]]
-#name = "Schedule"
-#url = "/schedule"
-#weight = 20
-
-#[[menus.main]]
-#name = "Sessions"
-#url = "/sessions/2025"
-#weight = 25
-
-#[[menus.main]]
-#name = "Instructors"
-#url = "/instructors"
-#weight = 40
-
 [[menus.main]]
-name = "Archive"
-url = "/sessions"
-weight = 50
+  identifier = "program"
+  name = "Program"
+  url = "/program"
+  weight = 20
 
-#[[menus.main]]
-#name = "Hackathon"
-#url = "/hackathon"
-#weight = 30
-
-[[menus.main]]
-name = "FAQ"
-url = "/faq"
-weight = 60
-
-
-  [[menus.main]]
-    identifier = "program"
-    name = "Program"
-    url = "/program"
-    weight = 20
   [[menus.main]]
     identifier = "schedule"
     name = "Schedule"
@@ -133,9 +103,34 @@ weight = 60
     url = "/instructors"
     parent = "program"
     weight = 3
+
+[[menus.main]]
+identifier = "hackathon"
+name = "Hackathon"
+weight = 30
+
   [[menus.main]]
-    identifier = "hackathon"
-    name = "Hackathon"
+    name = "Overview"
     url = "/hackathon"
-    parent = "program"
-    weight = 4
+    parent = "hackathon"
+    weight = 1
+
+  [[menus.main]]
+    name = "Challenges"
+    url = "/challenges"
+    parent = "hackathon"
+    weight = 2
+
+
+[[menus.main]]
+name = "Archive"
+url = "/sessions"
+weight = 50
+
+[[menus.main]]
+name = "FAQ"
+url = "/faq"
+weight = 60
+
+
+
