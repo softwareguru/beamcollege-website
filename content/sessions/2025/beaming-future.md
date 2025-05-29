@@ -7,6 +7,7 @@ time_start: 2025-05-15T15:00:00.000Z
 time_end:   2025-05-15T15:30:00.000Z
 track: Fundamentals
 summary: "This session provides an overview of Apache Beam and its place in the generative AI space. What problem does Beam solve? What are its advantages? Why and how are companies using it?"
+video: https://youtu.be/06MnNfOucYA
 ---
 
 This session provides an overview of Apache Beam and its place in the generative AI space. What problem does Beam solve? What are its advantages? Why and how are companies using it?

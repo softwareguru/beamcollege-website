@@ -7,6 +7,7 @@ time_start: 2025-05-15T18:30:00.000Z
 time_end:   2025-05-15T19:15:00.000Z
 track: Fundamentals
 summary: "This session dives into Apache Beam's streaming primitives, focusing on reading from unbounded sources using Splittable DoFn and Unbounded Source, windowing strategies, and triggers with accumulation modes."
+video: https://youtu.be/E9r21c-c8LY
 ---
 
 This session dives into Apache Beam's streaming primitives, focusing on reading from unbounded sources using Splittable DoFn and Unbounded Source, windowing strategies, and triggers with accumulation modes.

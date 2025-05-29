@@ -7,6 +7,7 @@ time_start: 2025-05-15T17:45:00.000Z
 time_end:   2025-05-15T18:30:00.000Z
 track: Fundamentals
 summary: "This tutorial demonstrates how to perform streaming inference with Apache Beam and Google AI Studio's Gemini model, focusing on a geography-based example to get country capitals."
+video: https://youtu.be/s-dwPqXjg_I
 ---
 
 This tutorial demonstrates how to perform streaming inference with Apache Beam and Google AI Studio's Gemini model, focusing on a geography-based example to get country capitals.
