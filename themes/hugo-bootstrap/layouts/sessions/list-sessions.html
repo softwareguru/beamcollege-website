@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+<div class="container mb-4">
+    <p class="text-center">
+        {{ .Content }}
+    </p>
+
+    <div class="table-responsive">
+    <table class="table">
+      <thead>
+        <tr>
+          <th data-field="title" data-sortable="true">Title</th>
+          <th data-field="instructors" data-sortable="true">Instructor(s)</th>         
+          <th data-field="recording" data-sortable="true">Recording</th>
+          <th data-field="slides">Slides</th>
+        </tr>
+      </thead>
+        <tbody>
+              {{ range .Data.Pages.ByTitle }}
+            <tr>
+                <td data-toggle="collapse" data-target="#abs-{{.File.TranslationBaseName}}" class="session-toggler"><h4 class="mb-0 mt-3">
+                    <a class="session-title" href="{{.Permalink}}">{{ .Params.title }}</a>
+                    
+                    </h4>           
+                  </td>
+                  <td><em>{{ with .Params.instructors }}{{ delimit . ", " " & " }}{{ end }}</em></td>
+          
+                <td class="text-center">{{ with .Params.video }}<a
+                        href='{{ replace . "https://www.youtube.com/embed" "https://youtu.be" }}' target="_blank"><i
+                            class="bi bi-youtube" aria-hidden="true" title="Watch"></i></a>{{ end }}</td>
+                <td class="text-center">{{ with .Params.slides }}<a
+                        href='{{ if hasPrefix . "http" }}{{ . }}{{ else }}/files/slides/{{ . }}{{ end }}'
+                        target="_blank" download><i class="bi bi-cloud-arrow-down-fill" aria-hidden="true"
+                            title="Slides"></i></a>{{ end }}</td>
+        
+            </tr>
+            {{ end }}
+        </tbody>
+    </table>
+</div>
+</div>
+
+
+{{ end }}

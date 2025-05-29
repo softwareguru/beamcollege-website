@@ -7,6 +7,8 @@ time_start: 2025-05-16T16:00:00.000Z
 time_end:   2025-05-16T16:30:00.000Z
 track: New features
 summary: "Learn how you can create low-code and no-code Beam YAML jobs in the Cloud Dataflow UI."
+slides: 2025/TheDataflowJobBuilder.pdf
+video: https://youtu.be/KarJt37bYdY
 ---
 
 Learn how you can create low-code and no-code Beam YAML jobs in the Cloud Dataflow UI.

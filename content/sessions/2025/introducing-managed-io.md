@@ -7,6 +7,8 @@ time_start: 2025-05-16T17:00:00.000Z
 time_end:   2025-05-16T17:30:00.000Z
 track: New features
 summary: "Discover what makes Managed IO a major leap towards a more unified, flexible, and upgrade-friendly connector ecosystem. This talk dives into the motivation and design behind Managed IO, highlighting a few key goals:"
+slides: 2025/IntroducingManagedIOTheNewEraOfBeamConnectors.pdf
+video: https://youtu.be/Q_wDZqQmj-E
 ---
 
 Discover what makes Managed IO a major leap towards a more unified, flexible, and upgrade-friendly connector ecosystem. This talk dives into the motivation and design behind Managed IO, highlighting a few key goals:

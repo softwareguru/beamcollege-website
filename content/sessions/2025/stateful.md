@@ -7,7 +7,8 @@ time_start: 2025-05-16T18:00:00.000Z
 time_end:   2025-05-16T18:30:00.000Z
 track: New features
 summary: "The stateful processing interface in Apache Beam serves as a versatile tool for data processing, empowering users with advanced capabilities to handle complex workflows. This session will delve into the diverse functionalities provided by stateful processing, illustrating their practical applications through clear and concise code examples."
-
+slides: 2025/StatefulProcessingInApacheBeam.pdf
+video: https://youtu.be/b1WtOyev7-M
 ---
 
 The stateful processing interface in Apache Beam serves as a versatile tool for data processing, empowering users with advanced capabilities to handle complex workflows. This session will delve into the diverse functionalities provided by stateful processing, illustrating their practical applications through clear and concise code examples.
