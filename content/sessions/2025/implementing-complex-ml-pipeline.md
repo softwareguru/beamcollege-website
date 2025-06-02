@@ -9,6 +9,8 @@ time_end:   2025-05-15T17:00:00.000Z
 track: Fundamentals
 summary: "In this session we explain how to implement a complex ML pipeline with Apache Beam. The pipeline we will build takes audio data, convert it to text, classify it to identify the topic or subject, feed it to a LLM and then take the output of the model and turn it back to voice."
 video: https://youtu.be/aDKqohnSkvA
+slides: 2025/MLPipeline.pdf
+
 ---
 
 In this session we explain how to implement a complex ML pipeline with Apache Beam, using the "RunInference" Transform. The pipeline we will build takes audio data, convert it to text, classify it to identify the topic or subject, feed it to a LLM and then take the output of the model and turn it back to voice.
