@@ -19,3 +19,6 @@ It covers:
  3. Building an ML pipeline with Beam
  4. Running the pipeline
 
+#### Resources:
+* [Starting (blank) notebook](https://colab.research.google.com/drive/1dkqjLHMBl_cPWGV6BF4hpBd3XgaQ3zUD?usp=sharing)
+* [Notebook with solution](https://colab.research.google.com/drive/1fs9TqA6V8ckSNy-9_7CWbYXVgyMNC2LU?usp=sharing)

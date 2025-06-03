@@ -18,3 +18,7 @@ Discover what makes Managed IO a major leap towards a more unified, flexible, an
  • Allow runners to fine-tune connector behavior for their environment
 
 See it all in action with a Dataflow demo featuring IcebergIO as a case study, alongside examples with BigQueryIO and KafkaIO!
+
+#### Resources:
+* [Managed IO documentation](https://beam.apache.org/documentation/io/managed-io/)
+* [Code repository for local demo](https://github.com/ahmedabu98/beamcollege-managed-io)

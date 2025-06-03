@@ -35,13 +35,13 @@
       <p class="mt-5">
           Intructor(s):
       </p>
-      <div class="row d-inline-flex">
+      <div class="d-flex">
       {{ range (.GetTerms "instructors") }}
-      <div class="speaker-thumbnail mb-2 text-center">
+      <div class="speaker-thumbnail mb-2 text-center mx-4">
         <a href="{{ .RelPermalink }}">
             {{ $img := .Resources.Get "headshot.jpg" }}
             {{ with $img }}
-              {{ $imgp := $img.Fill "180x180 webp" }}
+              {{ $imgp := $img.Fill "160x160 webp" }}
                 <img src="{{$imgp.RelPermalink }}" alt="Photo of {{.Title}}" class="rounded-circle">
             {{ end }}      
             <h5 class="name my-2">{{ .Title }}</h5>
