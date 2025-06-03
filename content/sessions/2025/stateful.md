@@ -22,3 +22,6 @@ Session Outline:
  - Practical Use Cases with Code Examples: Real-world scenarios showcasing the power and flexibility of stateful processing.
 
 This session aims to provide attendees with a comprehensive understanding of stateful processing in Apache Beam, equipping them with the knowledge to leverage its capabilities effectively in their data engineering projects.
+
+#### Resources:
+* [Code reviewed during presentation](https://github.com/rakeshcusat/beam-starter-python/pull/1/files)

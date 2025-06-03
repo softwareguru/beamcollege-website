@@ -12,3 +12,7 @@ video: https://youtu.be/KarJt37bYdY
 ---
 
 Learn how you can create low-code and no-code Beam YAML jobs in the Cloud Dataflow UI.
+
+#### Resources:
+ * [Guide: Use the Job Builder UI](https://cloud.google.com/dataflow/docs/guides/job-builder)
+ * [Beam YAML API documentation](https://beam.apache.org/documentation/sdks/yaml/)
