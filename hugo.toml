@@ -127,9 +127,9 @@ name = "Archive"
 url = "/sessions"
 weight = 50
 
-[[menus.main]]
-name = "FAQ"
-url = "/faq"
-weight = 60
+#[[menus.main]]
+#name = "FAQ"
+#url = "/faq"
+#weight = 60
 
 

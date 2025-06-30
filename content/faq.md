@@ -7,4 +7,5 @@ images:
 ---
 
 
+
 Frequently asked questions about Beam College.
