@@ -1,16 +1,18 @@
 {{ define "main" }}
 
+
 <!-- Speaker Detail -->
 <section class="speaker-detail">
   <div class="container">
+    <h1>{{.Title}}</h1>
       <div class="row">
           <div class="image-column col-md-4 col-lg-3 col-sm-12">
             {{ $img := .Resources.Get "headshot.jpg" }}
             {{ with $img }}
               {{ $imgp := $img.Fill "400x400 webp" }}
-              <img src="{{$imgp.RelPermalink }}" alt="Photo of {{.Title}}" class="img-fluid rounded">
+              <img src="{{$imgp.RelPermalink }}" alt="Photo of {{.Title}}" class="img-fluid rounded mb-3">
             {{ end }}
-            <ul class="social-icon-two social-icon-colored text-center mx-auto d-inline list-unstyled"><br><br>
+            <ul class="social-icon-two social-icon-colored text-center mx-auto d-inline list-unstyled">
                       {{ with .Params.twitter }}
                       {{ if ne . "" }}
                       <li><a href="{{ . }}" target="_blank"><span class="bi bi-twitter-x"></span></a></li>
@@ -40,14 +42,13 @@
           <div class="info-column col-md-8 col-sm-12">
               <div class="inner-column">
                   <div class="text-box">
-                      {{ with .Params.designation }}<h3>{{.}}</h3>{{ end }}
                       <p>{{ .Content }}</p>
 
                       <!-- Sessions speaker -->
                       <ul>
                       {{ range $index, $value := (.Data.Pages.ByParam "time_start").Reverse }}
                         {{ if eq $index 0 }}                        
-                        <h4>Sessions by {{ $.Title }}</h4>
+                        <h5 style="margin-left:-1.5em">Sessions by {{ $.Title }}</h5>
                         {{ end }}  
                         <li><a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.time_start | time }} ({{ .Format "2006" }}){{ end }}</li>
                       {{ end }}
