@@ -217,9 +217,13 @@ body {
     color: white;
 
     h2 {
-      font-size: 60px;
-      margin-bottom: 28px;
+      font-size: 72px;
     }
+
+    h3 {
+      font-size: 48px;
+    }
+
 
     @media (max-width: 768px) {
       h2 {
@@ -519,9 +523,6 @@ footer {
   font-style: italic;
 }
 
-h3 {
-  margin-top: 1em;
-}
 
 .video-container {
   width: 400px;
