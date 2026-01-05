@@ -61,7 +61,7 @@ removePathAccents = true
 # https://schema.org/Article
 [params]
   description = "Beam College is an online training focused on implementing data pipelines with Apache Beam."
-  images = ['/images/beamcollege2025.jpg']
+  images = ['/images/beamcollege2026-thumb.jpg']
   mainMenuLogo = "/images/logo-simple.svg"
   copyright="Software Guru"
 
