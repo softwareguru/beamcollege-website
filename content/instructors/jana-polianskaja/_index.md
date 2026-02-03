@@ -1,6 +1,6 @@
 ---
 title: "Jana Polianskaja"
-designation: "Data Engineer at Accenture Baltics"
+designation: "Senior Data Engineer @ Bank of Lithuania "
 images:
  - headshot.jpg
 twitter:
