@@ -3,7 +3,7 @@ title: "Schedule"
 draft: false
 ---
 
-### Beam College 2026 will be on April 21-22, 2026.
+### Beam College 2026 will be on April 21-23, 2026.
 
 Stay tuned for a detailed schedule of sessions and topics.
 
