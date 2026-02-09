@@ -1,6 +1,6 @@
 ---
 title: "Svetak Sundhar"
-designation: "Data Engineer, Google"
+designation: "AI and Data Engineer at Google | Apache Beam Committer"
 images:
  - headshot.jpg
 twitter: 
