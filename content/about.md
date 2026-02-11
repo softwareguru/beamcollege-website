@@ -3,7 +3,7 @@ title: "About Beam College"
 draft: false
 ---
 
-Beam College is an online, free educational program that provides hands-on training to solve data processing use cases using <a href="https://beam.apache.org">Apache Beam&reg;</a>. 
+Beam College is an online, free educational program that provides hands-on training to solve data processing use cases using <a href="https://beam.apache.org" target="_blank">Apache Beam&reg;</a>. 
 
 ### Topics 
 
