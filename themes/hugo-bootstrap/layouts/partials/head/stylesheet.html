@@ -1,10 +1,10 @@
+
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/bootstrap-table@1.26.0/dist/bootstrap-table.min.css">
+
 {{- $sassOptions := dict "targetPath" "css/style.css" "enableSourceMap" true "outputStyle" "expanded" "precision" 6 -}}
 {{/*- $postcssOptions := dict "use" "autoprefixer" "noMap" true -*/}}
-
-{{ if eq hugo.Environment "production" -}}
-  {{- $sassOptions = merge $sassOptions (dict "outputStyle" "compressed") -}}
-{{- end -}}
-
+{{- $sassOptions = merge $sassOptions (dict "outputStyle" "compressed") -}}
 {{ $css := resources.Get "sass/main.scss" | toCSS $sassOptions -}}
 
 <link rel="stylesheet" href="{{ $css.Permalink | relURL }}" media="screen">
+

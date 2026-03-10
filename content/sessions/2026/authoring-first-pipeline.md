@@ -2,11 +2,12 @@
 title: "Authoring your first pipeline"
 instructors:
  - Raj Katakam
+day: 20261
 time_start: 2026-04-21T15:30:00.000Z
-time_end:   2026-04-21T15:50:00.000Z
+time_end:   2026-04-21T15:55:00.000Z
 track: Overview & Fundamentals
 video: 
-weight: 1
+weight: 2
 
 ---
 

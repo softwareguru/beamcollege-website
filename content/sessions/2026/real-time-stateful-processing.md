@@ -4,11 +4,12 @@ date: 2026-02-09T16:45:55-06:00
 instructors:
  - Darshan Kanade
  - Aditya Shukla
+day: 20263
 time_start: 2026-04-23T15:30:00.000Z
-time_end:   2026-04-23T15:50:00.000Z
+time_end:   2026-04-23T15:55:00.000Z
 track: Tips & Tricks
 video: 
-weight: 4
+weight: 12
 
 ---
 

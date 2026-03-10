@@ -3,11 +3,12 @@ title: 'YAML: a new SDK to author your pipelines'
 date: 2026-02-09T16:30:58-06:00
 instructors:
  - Svetak Sundhar
-time_start: 2026-04-21T15:30:00.000Z
-time_end:   2026-04-21T15:50:00.000Z
+day: 20261
+time_start: 2026-04-21T16:30:00.000Z
+time_end:   2026-04-21T16:55:00.000Z
 video: 
 track: Overview & Fundamentals
-weight: 1
+weight: 4
 
 ---
 

@@ -5,7 +5,7 @@ images:
  - headshot.jpg
 twitter:
 linkedin: https://www.linkedin.com/in/mehrannazir/
-speaker: true
+speaker: false
 mentor: 
 ---
 

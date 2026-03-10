@@ -5,7 +5,7 @@ images:
  - headshot.jpg
 twitter:
 linkedin: https://www.linkedin.com/in/ahmedabu98/ 
-speaker: 
+speaker: true
 mentor: 
 ---
 

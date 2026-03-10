@@ -2,12 +2,13 @@
 title: "Video Data Processing with Apache Beam"
 date: 2026-02-09T16:43:32-06:00
 instructors:
- - Adesh Abhang
-time_start: 2026-04-21T15:30:00.000Z
-time_end:   2026-04-21T15:50:00.000Z
+- Adesh Abhang
+day: 20263
+time_start: 2026-04-23T15:00:00.000Z
+time_end:   2026-04-23T15:25:00.000Z
 track: Tips & Tricks
 video: 
-weight: 1
+weight: 11
 
 ---
 

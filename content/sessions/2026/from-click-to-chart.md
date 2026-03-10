@@ -3,11 +3,12 @@ title: "From Click to Chart: Building a Real-Time Analytics Engine"
 date: 2026-02-09T16:43:32-06:00
 instructors:
  - Meghana Ganu
-time_start: 2026-04-21T15:30:00.000Z
-time_end:   2026-04-21T15:50:00.000Z
+day: 20261
+time_start: 2026-04-21T16:00:00.000Z
+time_end:   2026-04-21T16:25:00.000Z
 track: Overview & Fundamentals
 video: 
-weight: 1
+weight: 3
 
 ---
 

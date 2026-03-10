@@ -5,7 +5,7 @@ images:
  - headshot.jpg
 twitter:
 linkedin: https://www.linkedin.com/in/rakeshkumar1007/
-speaker: true
+speaker: false
 mentor: true
 ---
 
