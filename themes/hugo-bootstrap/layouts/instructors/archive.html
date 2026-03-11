@@ -6,20 +6,26 @@
       {{ .Content }}
     </div>
     <div class="speaker-strip">
-      {{ range where (where .Site.Pages.ByTitle "Type" "speakers") "Kind" "term" }}
+      {{ range $name, $term := .Site.Taxonomies.instructors }}
+      {{ $speaker_path := printf "%s" $name | urlize | printf "%s%s" "/instructors/" }}
+      {{ with $.Site.GetPage $speaker_path }}
       <div class="speaker-item">
         <div class="speaker-block">
           <div class="headshot-box">
             <a href="{{.Permalink}}">
-              <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{else}}{{ .Params.Image | relURL }}{{ end }}" alt="{{ .Title }}" class="img-fluid rounded-circle shadow">
+                {{ $img := .Resources.Get "headshot.jpg" }}
+                {{ with $img }}
+                  {{ $imgp := $img.Fill "400x400 webp" }}
+                  <img src="{{$imgp.RelPermalink }}" alt="Photo of {{.Title}}" class="img-fluid rounded-circle">
+                {{ end }}
             </a>
           </div>
           <div class="speaker-info text-center">
             <h4 class="mb-0 mt-3"><a href="{{.Permalink | relURL }}">{{ .Title }}</a></h4>
-            <p>{{ .Params.Designation}}</p>
           </div>
         </div>
       </div>
+      {{ end }}
       {{ end }}
     </div>
   </div>
