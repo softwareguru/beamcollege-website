@@ -8,6 +8,7 @@ linkedin:
 events:
  - 2024
  - 2025
+ - 2026
 speaker: true
 ---
 
