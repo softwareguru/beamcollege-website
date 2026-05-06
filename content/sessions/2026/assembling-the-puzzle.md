@@ -9,6 +9,7 @@ time_start: 2026-04-23T16:00:00.000Z
 time_end:   2026-04-23T16:25:00.000Z
 track: Tips & Tricks
 video: 
+slides: 2026/assembling-the-puzzle.pdf
 weight: 13
 ---
 

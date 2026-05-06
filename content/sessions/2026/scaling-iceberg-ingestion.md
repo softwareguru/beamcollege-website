@@ -7,6 +7,7 @@ time_start: 2026-04-22T15:30:00.000Z
 time_end:   2026-04-22T15:55:00.000Z
 track: New Features
 video: 
+slides: 2026/scaling-iceberg-ingestion-with-apache-beam.pdf
 weight: 7
 
 ---

@@ -7,6 +7,7 @@ time_start: 2026-04-22T16:00:00.000Z
 time_end:   2026-04-22T16:25:00.000Z
 track: New Features
 video: 
+slides: 2026/getting-started-with-remote-ml-inference-in-beam-java.pdf
 weight: 8
 
 ---

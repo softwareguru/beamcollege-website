@@ -6,6 +6,7 @@ instructors:
 time_start: 2026-04-21T15:30:00.000Z
 time_end:   2026-04-21T15:50:00.000Z
 video: 
+slides: 2026/apache-beam-powering-the-future-of-event-driven-agents-at-scale.pdf
 weight: 1
 
 ---
