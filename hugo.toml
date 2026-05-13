@@ -87,8 +87,8 @@ weight = 10
 
   [[menus.main]]
     identifier = "schedule"
-    name = "Schedule"
-    url = "/schedule"
+    name = "2026 Sessions"
+    url = "/sessions/2026/"
     parent = "program"
     weight = 1
 
@@ -96,7 +96,7 @@ weight = 10
   [[menus.main]]
     identifier = "instructors"
     name = "Instructors"
-    url = "/instructors"
+    url = "/instructors/archive"
     parent = "program"
     weight = 2
 
