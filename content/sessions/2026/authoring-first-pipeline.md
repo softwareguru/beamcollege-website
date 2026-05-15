@@ -6,7 +6,7 @@ day: 20261
 time_start: 2026-04-21T15:30:00.000Z
 time_end:   2026-04-21T15:55:00.000Z
 track: Overview & Fundamentals
-video: 
+video: https://youtu.be/HAAMgAo5CIo
 slides: 2026/authoring-your-first-pipeline.pdf
 weight: 2
 
