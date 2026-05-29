@@ -8,7 +8,6 @@ time_end:   2026-04-21T15:25:00.000Z
 track: Overview & Fundamentals
 video: https://youtu.be/csYMAFEZbsU
 weight: 1
-draft: true
 ---
 
 Where did Apache Beam start, and where is it taking us? 
