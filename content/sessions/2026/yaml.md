@@ -6,7 +6,8 @@ instructors:
 day: 20261
 time_start: 2026-04-21T16:30:00.000Z
 time_end:   2026-04-21T16:55:00.000Z
-video: 
+slides: 2025/YAML.pdf
+video: https://youtu.be/lu2zhyYda6w
 track: Overview & Fundamentals
 weight: 4
 

@@ -7,7 +7,8 @@ day: 20262
 time_start: 2026-04-22T15:00:00.000Z
 time_end:   2026-04-22T15:25:00.000Z
 track: New Features
-video: 
+slides: 2025/IntroducingManagedIOTheNewEraOfBeamConnectors.pdf
+video: https://youtu.be/Q_wDZqQmj-E
 weight: 6
 
 ---

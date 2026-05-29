@@ -6,7 +6,8 @@ instructors:
 day: 20262
 time_start: 2026-04-22T16:30:00.000Z
 time_end:   2026-04-22T16:55:00.000Z
-video: 
+slides: 2025/RealTimeAnomalyDetectionWithApacheBeam.pdf
+video: https://youtu.be/hy_wWPjH4oo
 track: New Features
 weight: 9
 

@@ -8,6 +8,7 @@ time_start: 2026-04-23T15:00:00.000Z
 time_end:   2026-04-23T15:25:00.000Z
 track: Tips & Tricks
 video: https://youtu.be/Kfk2GUUcHWs
+slides: 2026/video-data-processing.pdf
 weight: 11
 
 ---

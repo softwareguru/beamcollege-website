@@ -7,7 +7,8 @@ day: 20261
 time_start: 2026-04-21T17:00:00.000Z
 time_end:   2026-04-21T17:15:00.000Z
 track: Overview & Fundamentals
-video: 
+slides: 2025/TheDataflowJobBuilder.pdf
+video: https://youtu.be/KarJt37bYdY
 weight: 5
 ---
 

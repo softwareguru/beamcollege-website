@@ -8,6 +8,7 @@ time_end:   2026-04-21T15:50:00.000Z
 track: Tips & Tricks
 video: 
 weight: 3
+draft: true
 ---
 
 This session dives into Apache Beam’s streaming primitives, focusing on reading from unbounded sources using Splittable DoFn and Unbounded Source, windowing strategies, and triggers with accumulation modes.

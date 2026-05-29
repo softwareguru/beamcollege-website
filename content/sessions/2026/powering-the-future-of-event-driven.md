@@ -5,10 +5,10 @@ instructors:
  - Reza Rokni
 time_start: 2026-04-21T15:30:00.000Z
 time_end:   2026-04-21T15:50:00.000Z
-video: 
 slides: 2026/apache-beam-powering-the-future-of-event-driven-agents-at-scale.pdf
+video: https://youtu.be/csYMAFEZbsU
 weight: 1
-
+draft: true
 ---
 
 Where did Apache Beam start, and where is it taking us? Join us as we dive into the origins of the Beam model and examine the critical shift toward a streaming-first data landscape. We’ll break down why—in today’s expansive landscape that demands real-time context—robust streaming has become the essential nervous system for event-driven agents.
