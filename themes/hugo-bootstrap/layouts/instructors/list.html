@@ -13,6 +13,8 @@
         {{ if ne .Params.speaker true }}
           {{ continue }}
         {{ end }}  
+
+        {{ if in .Params.events 2026 }}
       <div class="speaker-item">
         <div class="speaker-block">
           <div class="headshot-box">
@@ -33,6 +35,7 @@
           </div>
         </div>
       </div>
+      {{ end }}
       {{ end }}
     </div>
   </div>

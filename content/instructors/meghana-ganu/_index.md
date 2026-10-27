@@ -8,7 +8,6 @@ linkedin: https://www.linkedin.com/in/meghana-ganu/
 speaker: true
 events:
  - 2026
-
 ---
 
 Meghana is a competent professional with over 18 years of experience in defining and executing data platform strategy and roadmap for Enterprise data platforms.

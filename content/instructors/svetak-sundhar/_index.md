@@ -7,6 +7,10 @@ twitter:
 linkedin: 
 speaker: true
 mentor: true
+events:
+ - 2024
+ - 2025
+ - 2026
 ---
 
 Svetak is a Technical Solutions Engineer at Google, currently specializing in Dataflow. Prior to this, he rotated through other customer facing roles in Google Cloud. Svetak holds degrees in Statistics and Computer Science and is very interested in Data Intensive Computing (Distributed Systems and Database Systems).

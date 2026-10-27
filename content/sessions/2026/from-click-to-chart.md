@@ -7,7 +7,7 @@ day: 20261
 time_start: 2026-04-21T16:00:00.000Z
 time_end:   2026-04-21T16:25:00.000Z
 track: Overview & Fundamentals
-video: 
+video: https://youtu.be/-X5bhyYwXM8
 weight: 3
 
 ---

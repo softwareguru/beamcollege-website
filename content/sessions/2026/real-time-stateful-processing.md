@@ -9,6 +9,7 @@ time_start: 2026-04-23T15:30:00.000Z
 time_end:   2026-04-23T15:55:00.000Z
 track: Tips & Tricks
 video: 
+slides: 2026/real-time-stateful-processing-of-video-data.pdf
 weight: 12
 
 ---

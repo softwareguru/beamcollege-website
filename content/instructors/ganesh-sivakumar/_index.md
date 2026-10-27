@@ -7,6 +7,8 @@ twitter:
 linkedin: https://www.linkedin.com/in/ganesh-sivakumar/
 speaker: true
 mentor: true
+events:
+ - 2026
 ---
 
 Ganesh is a software engineer who works on data stream processing systems and contributes to Apache Beam.

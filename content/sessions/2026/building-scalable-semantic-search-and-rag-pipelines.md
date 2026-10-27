@@ -7,7 +7,8 @@ day: 20262
 time_start: 2026-04-22T17:00:00.000Z
 time_end:   2026-04-22T17:25:00.000Z
 track: New Features
-video: 
+slides: 2025/BuildingScalableSemanticSearchAndRAGPipelines.pdf
+video: https://youtu.be/y4vdVoX9K5g
 weight: 10
 
 ---

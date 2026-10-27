@@ -6,9 +6,9 @@ day: 20261
 time_start: 2026-04-21T15:00:00.000Z
 time_end:   2026-04-21T15:25:00.000Z
 track: Overview & Fundamentals
-video: 
+video: https://youtu.be/csYMAFEZbsU
+slides: 2026/apache-beam-powering-the-future-of-event-driven-agents-at-scale.pdf
 weight: 1
-
 ---
 
 Where did Apache Beam start, and where is it taking us? 
